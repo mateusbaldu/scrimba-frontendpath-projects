@@ -1,0 +1,79 @@
+body {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Karla", sans-serif;
+    margin-left: 20px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+.green-text-color {
+    color: #55F991;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#div-pswd-size {
+    margin-top: 30px;
+}
+
+hr {
+    border: none;             
+    height: 1px;              
+    background-color: #2F3E53;
+    width: 500px;
+    margin: 10px 0;
+}
+
+#generate-pswd-btn {
+    margin: 20px 0px 20px 0px;
+    background-color: #10B981;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #10B981;
+    border-radius: 4px;
+    
+}
+
+label {
+    background-color: #111827;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#password-size-input {
+    background-color: #374151;
+    border: 1px solid #374151;
+    border-radius: 2px;
+    color: white;
+}
+
+#div-passwords {
+    margin-top: 0px;
+}
+
+#password-one {
+    background-color: #273549;
+    width: 300px;
+    text-align: center;
+    color: #55F991;
+    border-radius: 3px;
+}
+
+#password-two {
+    background-color: #273549;
+    width: 300px;
+    text-align: center;
+    color: #55F991;
+    border: none;
+    border-radius: 3px;
+}

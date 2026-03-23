@@ -1,0 +1,70 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.box-img {
+    border-radius: 50%;
+}
+
+.box {
+    display: flex;
+}
+
+.activities-section {
+    background-color: #F1FAEE;
+}
+
+
+.card {
+    display: flex;
+    width: 300px;
+    margin: 50px auto;
+    justify-content: space-around;
+    background-color: #A8DADC;
+    border: 0;
+    padding: 16px 8px;
+    border-radius: 12px;
+    border-bottom: 8px solid #1D3557;
+}
+
+.hero-section {
+    width: 100%;
+    background-image: url("/images/saopaulo.jpg");
+    background-size: cover;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    background: #457B9D;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+#subtitle {
+    background: #1D3557;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+

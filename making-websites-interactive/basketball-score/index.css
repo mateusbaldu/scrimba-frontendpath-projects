@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    font-family: Verdana;
+    font-style: Bold;
+    color: #EEEEEE;
+}
+
+#home-counter {
+    background-color: #0a0001;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}    
+
+#guest-counter {
+    background-color: #0a0001;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.counter-btn-div {
+    border: 2px solid #9AABD8
+}
+
+#reset-game-btn {
+    display: block;
+    width: 120px;
+    margin: 20px auto;
+}
+
